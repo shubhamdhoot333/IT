@@ -1,0 +1,58 @@
+link(https://www.javatpoint.com/jquery-ui-tutorial)
+jQueryUI stands for jQuery User Interface. It is a collection of animated visual effects, GUI widgets, and themes implemented with jQuery, CSS, HTML and JavaScript. 
+These new plug-ins add a lot of new functionalities in the jQuery core library.
+
+jQuery UI Features
+
+jQueryUI facilitates you to make highly interactive web applications.
+It is open source and free to use.
+It provides a powerful theme mechanism.
+It is very stable and maintenance friendly.
+It provides an extensive browser support
+Good documentation.
+
+
+
+jQuery UI Categorization
+We can categorize the jQueryUI into four groups.
+
+1.Interactions
+2.Widgets
+3.Effects
+4.Utilities
+
+1) Interactions: Interactions are the set of plug-ins which facilitates users to interact with DOM elements. These are the mostly used interactions:
+
+1.Draggable
+2.Droppable
+3.Resizable
+4.Selectable
+5.Sortable
+
+2) Widgets: Widgets are the jQuery plug-ins which makes you able to create user interface elements like date picker, progress bar etc. These are the mostly used widgets:
+
+1.Accordion
+2.Autocomplete
+3.Dialog
+4.Button
+5.Date Picker
+6.Menu
+7.Progress Bar
+8.Tabs
+Tooltip
+Slider
+Spinner
+
+3) Effects: The internal jQuery effects contain a full suite of custom animation and transition for DOM elements.
+Hide
+Show
+Add Class
+Remove Class
+Switch Class
+Toggle Class
+Color Animation
+Effect
+Toggle
+4) Utilities: Utilities are the modular tools, used by jQuery library internally.
+
+Position: It is used to set the position of the element according to the other element's alignment (position).

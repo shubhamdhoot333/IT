@@ -1,0 +1,80 @@
+https://www.javatpoint.com/javascript-oops-encapsulation
+https://www.javatpoint.com/javascript-oops-inheritance
+https://www.javatpoint.com/javascript-oops-polymorphism
+https://www.javatpoint.com/javascript-oops-abstraction
+
+JavaScript Constructor Method
+
+
+A JavaScript constructor method is a special type of method which is used to initialize and create an object. It is called when memory is allocated for an object.
+
+Points to remember
+The constructor keyword is used to declare a constructor method.
+The class can contain one constructor method only.
+JavaScript allows us to use parent class constructor through super keyword.
+Constructor Method Example
+Let's see a simple example of a constructor method.
+
+<script>  
+class Employee {  
+  constructor() {  
+    this.id=101;  
+    this.name = "Martin Roy";  
+  }   
+}  
+var emp = new Employee();  
+document.writeln(emp.id+" "+emp.name);  
+</script>  
+
+
+
+Constructor Method Example: super keyword
+The super keyword is used to call the parent class constructor. Let's see an example.
+
+<script>  
+class CompanyName  
+{  
+  constructor()  
+  {  
+    this.company="Javatpoint";  
+  }  
+}  
+class Employee extends CompanyName {  
+  constructor(id,name) {  
+   super();  
+    this.id=id;  
+    this.name=name;  
+  }   
+}     
+var emp = new Employee(1,"John");  
+document.writeln(emp.id+" "+emp.name+" "+emp.company);  
+</script>  
+
+
+
+
+
+JavaScript static Method
+The JavaScript provides static methods that belong to the class instead of an instance of that class. So, an instance is not required to call the static method. These methods are called directly on the class itself.
+
+Points to remember
+The static keyword is used to declare a static method.
+The static method can be of any name.
+A class can contain more than one static method.
+If we declare more than one static method with a similar name, the JavaScript always invokes the last one.
+The static method can be used to create utility functions.
+We can use this keyword to call a static method within another static method.
+We cannot use this keyword directly to call a static method within the non-static method. In such case, we can call the static method either using the class name or as the property of the constructor.
+JavaScript static Method Example 1
+Let's see a simple example of a static method.
+
+<script>  
+class Test  
+{  
+  static display()  
+  {  
+    return "static method is invoked"  
+  }  
+}  
+document.writeln(Test.display());  
+</script>  

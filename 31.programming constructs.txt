@@ -1,0 +1,88 @@
+1 comment in javascript 
+
+ Two typr of comment in javascript 
+	1 single line comment 
+	2 multiple line comment 
+
+      	1 single line comment 
+<script>  
+// It is single line comment  
+document.write("hello javascript");  
+</script>  
+
+2 multiple line comment 
+		 /* your code here  */  	
+
+
+
+		2 variable
+
+
+
+A JavaScript variable is simply a name of storage location. There are two types of variables in JavaScript : local variable and global variable.
+
+There are some rules while declaring a JavaScript variable (also known as identifiers).
+
+1.Name must start with a letter (a to z or A to Z), underscore( _ ), or dollar( $ ) sign.
+2.After first letter we can use digits (0 to 9), for example value1.
+3.JavaScript variables are case sensitive, for example x and X are different variables.
+
+
+
+*local variable
+
+<script>  
+function abc(){  
+var x=10;//local variable  
+}  
+</script>  
+
+
+*global variable
+
+A JavaScript global variable is accessible from any function. A variable i.e. declared outside the function or declared with window object is known as global variable. 
+For example:
+
+<script>  
+var data=200;//gloabal variable  
+function a(){  
+document.writeln(data);  
+}  
+function b(){  
+document.writeln(data);  
+}  
+a();//calling JavaScript function  
+b();  
+</script>  
+
+
+
+
+Javascript Data Types
+JavaScript provides different data types to hold different types of values. There are two types of data types in JavaScript.
+
+Primitive data type
+Non-primitive (reference) data type
+
+
+String	------represents sequence of characters e.g. "hello"
+Number	------	represents numeric values e.g. 100
+Boolean	-----represents boolean value either false or true
+Undefined-----	represents undefined value
+Null   --------	represents null i.e. no value at all
+
+JavaScript non-primitive data types
+
+Object---	represents instance through which we can access members
+Array----	represents group of similar values
+RegExp---	represents regular expression
+
+example
+
+var a=40;//holding number  
+var b="Rahul";//holding string  
+
+
+
+
+

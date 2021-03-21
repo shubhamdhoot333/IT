@@ -1,0 +1,25 @@
+XML 
+ link(https://www.w3schools.com/xml/xml_whatis.asp)
+XML stands for eXtensible Markup Language.
+XML was designed to store and transport data.
+XML is a software- and hardware-independent tool for storing and transporting data.
+XML was designed to be both human- and machine-readable.
+XML is a markup language much like HTML
+XML was designed to store and transport data
+XML was designed to be self-descriptive
+XML is a W3C Recommendation
+
+
+
+
+XML and HTML were designed with different goals:
+
+XML was designed to carry data - with focus on what data is
+HTML was designed to display data - with focus on how data looks
+XML tags are not predefined like HTML tags are
+
+
+
+
+XML is used in many aspects of web development.
+XML is often used to separate data from presentation.

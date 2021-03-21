@@ -1,0 +1,62 @@
+HTML Graphics
+There are two modern web technologies for creating rich drawn graphics within the browser: HTML5 Canvas and Scalable Vector Graphics (SVG).
+1.canvas
+
+
+1.The HTML <canvas> element is used to draw graphics on a web page. 
+2.The graphic to the left is created with <canvas>. It shows four elements: a red rectangle, a gradient rectangle, a multicolor rectangle, and a multicolor text.
+3.Canvas has several methods for drawing paths, boxes, circles, text, and adding images.
+4.A canvas is a rectangular area on an HTML page. By default, a canvas has no border and no content.
+
+
+ex --<canvas id="myCanvas" width="200" height="100"></canvas>
+
+After creating the rectangular canvas area, you must add a JavaScript to do the drawing.
+1.line
+2.circle
+3.text
+4.linear grident
+5.draw image
+
+and many more 
+
+
+2. SVG
+
+
+The HTML SVG is an acronym which stands for Scalable Vector Graphics.
+HTML SVG is a modularized language which is used to describe graphics in XML. It describe two-dimensional vector and mixed vector/raster graphics in XML. It is a W3C recommendation. SVG images and their behaviors are defined in XML text files. So as XML files, you can create and edit an SVG image with text editor, but generally drawing programs like inkspace are preferred to create it.
+SVG is mostly used for vector type diagrams like pie charts, 2-Dimensional graphs in an X,Y coordinate system etc.
+
+
+example
+circle example 
+
+<svg width="100" height="100">  
+ <circle cx="50" cy="50" r="40" stroke="yellow" stroke-width="4" fill="red" />  
+</svg>  
+
+rectangle 
+<svg width="200" height="100">  
+  <rect width="200" height="100" stroke="yellow" stroke-width="4" fill="red" />  
+</svg>  
+
+
+
+
+different between it 
+
+Canvas	                                
+Resolution dependent
+No support for event handlers
+Poor text rendering capabilities
+You can save the resulting image as .png or .jpg
+Well suited for graphic-intensive games
+
+SVG
+
+Resolution independent
+Support for event handlers
+Best suited for applications with large rendering areas (Google Maps)
+Slow rendering if complex (anything that uses the DOM a lot will be slow)
+Not suited for game applications

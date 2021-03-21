@@ -1,0 +1,51 @@
+HTML Lists
+HTML Lists are used to specify lists of information. All lists may contain one or more list elements. There are three different types of HTML lists:
+
+Ordered List or Numbered List (ol)
+Unordered List or Bulleted List (ul)
+Description List or Definition List (dl)
+
+
+1.HTML Ordered List or Numbered List
+
+<ol>  
+ <li>Aries</li>  
+ <li>Bingo</li>  
+ <li>Leo</li>  
+ <li>Oracle</li>  
+</ol>  
+
+link (https://www.javatpoint.com/html-ordered-list)
+
+
+2.HTML Unordered List or Bulleted List
+
+<ul>  
+ <li>Aries</li>  
+ <li>Bingo</li>  
+ <li>Leo</li>  
+ <li>Oracle</li>  
+</ul>  
+
+link(https://www.javatpoint.com/html-unordered-list)
+
+3.HTML Description List or Definition List
+
+<dl> tag defines the start of the list.
+<dt> tag defines a term.
+<dd> tag defines the term definition (description).
+
+link( https://www.javatpoint.com/html-description-list)
+
+example
+<dl>  
+  <dt>Aries</dt>  
+  <dd>-One of the 12 horoscope sign.</dd>  
+  <dt>Bingo</dt>  
+  <dd>-One of my evening snacks</dd>  
+ <dt>Leo</dt>  
+ <dd>-It is also an one of the 12 horoscope sign.</dd>  
+  <dt>Oracle</dt>  
+  <dd>-It is a multinational technology corporation.</dd>   
+</dl>  
+

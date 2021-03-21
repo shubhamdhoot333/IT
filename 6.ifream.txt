@@ -1,0 +1,17 @@
+
+An HTML iframe is used to display a web page within a web page.
+The HTML <iframe> tag specifies an inline frame.
+An inline frame is used to embed another document within the current HTML document.
+example 
+
+<html>
+<body>
+
+<h2>HTML Iframes</h2>
+<p>You can use the height and width attributes to specify the size of the iframe:</p>
+
+<iframe src="demo_iframe.htm" height="200" width="300" title="Iframe Example"></iframe>
+
+</body>
+</html>
+link ( https://www.w3schools.com/html/html_iframe.asp)

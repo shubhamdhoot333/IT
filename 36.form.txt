@@ -1,0 +1,33 @@
+link(https://www.w3schools.com/js/js_validation.asp)
+link(https://www.javatpoint.com/javascript-form-validation)
+
+It is important to validate the form submitted by the user because it can have inappropriate values. So, validation is must to authenticate user.
+JavaScript provides facility to validate the form on the client-side so data processing will be faster than server-side validation. 
+Most of the web developers prefer JavaScript form validation.
+
+*********1******If a form field (fname) is empty, this function alerts a message, and returns false, to prevent the form from being submitted:
+function validateForm() {
+  var x = document.forms["myForm"]["fname"].value;
+  if (x == "") {
+    alert("Name must be filled out");
+    return false;
+  }
+}
+
+
+<form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+Name: <input type="text" name="fname">
+<input type="submit" value="Submit">
+</form>
+
+*********2******
+var firstpassword=document.f1.password.value;  
+var secondpassword=document.f1.password2.value;  
+
+
+
+most it read it 
+string 
+number 
+image 
+email

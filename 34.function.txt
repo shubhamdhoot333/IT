@@ -1,0 +1,111 @@
+function
+
+
+JavaScript functions are used to perform operations. We can call JavaScript function many times to reuse the code.
+
+Advantage of JavaScript function
+There are mainly two advantages of JavaScript functions.
+
+1.Code reusability: We can call a function several times so it save coding.
+2.Less coding: It makes our program compact. We don’t need to write many lines of code each time to perform a common task.
+
+
+  ****** JavaScript Function 
+
+
+user defind function
+Syntax
+
+function functionName([arg1, arg2, ...argN]){  
+ //code to be executed  
+}  
+
+
+
+	*******javascript function argument 
+
+<script>  
+function getcube(number){  
+alert(number*number*number);  
+}  
+</script>  
+<form>  
+<input type="button" value="click" onclick="getcube(4)"/>  
+</form>  
+
+*********Function with Return Value
+
+<script>  
+function getInfo(){  
+return "hello javatpoint! How r u?";  
+}  
+</script>  
+<script>  
+document.write(getInfo());  
+</script>  
+
+
+
+  	***********java script pop up box / dialogbox /
+
+JavaScript has three kind of popup boxes: Alert box, Confirm box, and Prompt box.
+1.Alert box
+
+An alert box is often used if you want to make sure information comes through to the user.
+
+When an alert box pops up, the user will have to click "OK" to proceed.
+ex
+<html>
+<body>
+
+<h2>JavaScript Alert</h2>
+
+<button onclick="myFunction()">Try it</button>
+
+<script>
+function myFunction() {
+  alert("I am an alert box!");
+}
+</script>
+
+</body>
+</html>
+
+2.confirm box
+
+A confirm box is often used if you want the user to verify or accept something.
+When a confirm box pops up, the user will have to click either "OK" or "Cancel" to proceed.
+If the user clicks "OK", the box returns true. If the user clicks "Cancel", the box returns false.
+
+ex
+
+<body>
+
+<h2>JavaScript Confirm Box</h2>
+
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var txt;
+  if (confirm("Press a button!")) {
+    txt = "You pressed OK!";
+  } else {
+    txt = "You pressed Cancel!";
+  }
+  document.getElementById("demo").innerHTML = txt;
+}
+</script>
+
+</body>
+
+3.prompt box
+A prompt box is often used if you want the user to input a value before entering a page.
+When a prompt box pops up, the user will have to click either "OK" or "Cancel" to proceed after entering an input value.
+If the user clicks "OK" the box returns the input value. If the user clicks "Cancel" the box returns null.
+example
+
+var person = prompt("Please enter your name:", "Harry Potter");

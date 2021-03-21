@@ -1,0 +1,26 @@
+What is Usability?
+Usability is a measure of how well a specific user in a specific context can use a product/design to achieve a defined goal effectively, 
+efficiently and satisfactorily. Designers usually measure a design’s usability throughout the development process.
+
+
+A design’s usability depends on how well its features accommodate users’ needs and contexts. Therefore, you are responsible for your design’s usability. It should contain these elements:
+1.Effectiveness—It supports users in completing actions accurately.
+2.Efficiency—Users can perform tasks quickly through the easiest process.
+3.Engagement—Users find it pleasant to use and appropriate for its industry/topic.
+4.Error Tolerance—It supports a range of user actions and only shows an error in genuine erroneous situations. You achieve this by finding out the number, type and severity of common errors users make, as well as how easily users can recover from those errors.
+5.Ease of Learning—New users can accomplish goals easily and even more easily on future visits.
+
+link(https://www.interaction-design.org/literature/topics/usability#:~:text=Usability%20refers%20to%20how%20easily,with%20a%20website%20or%20product.&text=In%20usability%2C%20we%20designers%20have,easily%20through%20using%20that%20design.)
+
+
+
+interaction----
+
+Interaction design focuses on creating engaging interfaces with well thought out behaviors.
+ Understanding how users and technology communicate with each other is fundamental to this field.
+ With this understanding, you can anticipate how someone might interact with the system, fix problems early, as well as invent new ways of doing things. 
+
+Best Practices for Designing Interactions
+Consider these qualities and associated questions when creating digital products that have an interactive element:
+
+ link(https://www.usability.gov/what-and-why/interaction-design.html)

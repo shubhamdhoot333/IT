@@ -1,0 +1,19 @@
+ Array
+
+********Creating an Array
+
+Using an array literal is the easiest way to create a JavaScript Array.
+ syntex
+
+var array_name = [item1, item2, ...];   
+example 
+var cars = ["Saab", "Volvo", "BMW"];
+
+
+
+***********Using the JavaScript Keyword new
+
+var cars = new Array("Saab", "Volvo", "BMW");
+
+
+link(https://www.javatpoint.com/javascript-array)

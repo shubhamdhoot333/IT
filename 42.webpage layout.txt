@@ -1,0 +1,26 @@
+  web page layout 
+
+A website is often divided into headers, menus, content and a footer:
+example(https://www.w3schools.com/css/css_website_layout.asp)
+
+
+Header
+A header is usually located at the top of the website (or right below a top navigation menu). It often contains a logo or the website name:
+
+navbar
+A navigation bar contains a list of links to help visitors navigating through your website:
+
+content
+The layout in this section, often depends on the target users. The most common layout is one (or combining them) of the following:
+
+1-column (often used for mobile browsers)
+2-column (often used for tablets and laptops)
+3-column layout (only used for desktops)
+
+footer
+The footer is placed at the bottom of your page. It often contains information like copyright and contact info:
+
+
+
+Responsive Website Layout
+By using some of the CSS code above, we have created a responsive website layout, which varies between two columns and full-width columns depending on screen width:

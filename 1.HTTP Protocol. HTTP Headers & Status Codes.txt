@@ -1,0 +1,50 @@
+HTTP Protocol 
+
+
+
+1.  The Hypertext Transfer Protocol (HTTP) is an application-level protocol.
+2.Basically, HTTP is a TCP/IP based communication protocol, that is used to deliver data (HTML files, image files, query results, etc.) on the World Wide Web..
+3.It provides a standardized way for computers to communicate with each other. HTTP specification specifies how clients' request data will be constructed and sent to the server,
+ and how the servers respond to these requests.
+4.The HTTP protocol is a request/response protocol based on the client/server based architecture
+5.Client
+The HTTP client sends a request to the server in the form of a request method, URI, and protocol version, followed by a MIME-like message containing request modifiers, 
+client information, and possible body content over a TCP/IP connection.
+6.Server
+The HTTP server responds with a status line, including the message's protocol version and a success or error code, followed by a MIME-like message containing server information,
+ entity meta information, and possible entity-body content.
+
+7.HTTP is based on the client-server architecture model and a stateless request/response protocol that operates by exchanging messages across a reliable TCP/IP connection.
+8.HTTP makes use of the Uniform Resource Identifier (URI) to identify a given resource and to establish a connection. Once the connection is established, HTTP messages are passed in a format similar to that used by the Internet mail [RFC5322] and the Multipurpose Internet Mail Extensions (MIME) [RFC2045]. 
+These messages include requests from client to server and responses from server to client which will have the following format:
+9.An HTTP client sends an HTTP request to a server in the form of a request message 
+10.After receiving and interpreting a request message, a server responds with an HTTP response message:
+11.  status code ---The Status-Code element in a server response, is a 3-digit integer where the first digit of the Status-Code defines the class of response and the last two digits do not have any categorization role. 
+There are 5 values for the first digit:
+1xx: Informational
+It means the request has been received and the process is continuing.
+2xx: Success
+It means the action was successfully received, understood, and accepted.
+3xx: Redirection
+It means further action must be taken in order to complete the request.
+4xx: Client Error
+It means the request contains incorrect syntax or cannot be fulfilled.
+5xx: Server Error
+It means the server failed to fulfill an apparently valid request.
+we can read here (https://www.tutorialspoint.com/http/http_status_codes.htm)
+
+
+
+12.HTTP header fields provide required information about the request or response, or about the object sent in the message body. 
+There are four types of HTTP message headers:
+General-header: These header fields have general applicability for both request and response messages.
+
+Client Request-header: These header fields have applicability only for request messages.
+
+Server Response-header: These header fields have applicability only for response messages.
+
+Entity-header: These header fields define meta information about the entity-body or, if no body is present, about the resource identified by the request.
+
+we can read here (https://www.tutorialspoint.com/http/http_header_fields.htm)
+
+

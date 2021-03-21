@@ -1,0 +1,31 @@
+HTML Table Tags
+Tag	Description
+<table>  --	It defines a table.
+<tr>     --	It defines a row in a table.
+<th>     --	It defines a header cell in a table.
+<td>     --	It defines a cell in a table.
+<caption>-- 	It defines the table caption.
+<colgroup>--	It specifies a group of one or more columns in a table for formatting.
+<col>	  --It is used with <colgroup> element to specify column properties for each column.
+<tbody>	 --It is used to group the body content in a table.
+<thead>  --	It is used to group the header content in a table.
+<tfooter> --	It is used to group the footer content in a table.
+
+
+
+HTML Table with Border
+
+
+<table border="1">  
+<tr><th>First_Name</th><th>Last_Name</th><th>Marks</th></tr>  
+<tr><td>Sonoo</td><td>Jaiswal</td><td>60</td></tr>  
+<tr><td>James</td><td>William</td><td>80</td></tr>  
+<tr><td>Swati</td><td>Sironi</td><td>82</td></tr>  
+<tr><td>Chetna</td><td>Singh</td><td>72</td></tr>  
+</table>  
+
+
+link (https://www.javatpoint.com/html-table)
+
+colspan 
+rowspan

@@ -1,0 +1,117 @@
+css ----
+
+CSS stands for Cascading Style Sheets
+CSS describes how HTML elements are to be displayed on screen, paper, or in other media
+CSS saves a lot of work. It can control the layout of multiple web pages all at once
+External stylesheets are stored in CSS files
+CSS stands for Cascading Style Sheets. It is a style sheet language which is used to describe the look and formatting of a document written in markup language. 
+It provides an additional feature to HTML. It is generally used with HTML to change the style of web pages and user interfaces
+
+
+A CSS rule set contains a selector and a declaration block.
+
+Selector: Selector indicates the HTML element you want to style. It could be any tag like <h1>, <title> etc.
+
+Declaration Block: The declaration block can contain one or more declarations separated by a semicolon. For the above example, there are two declarations:
+
+Selector{Property1: value1; Property2: value2; ..........;}  
+
+Property: A Property is a type of attribute of HTML element. It could be color, border etc.
+
+Value: Values are assigned to CSS properties. In the above example, value "yellow" is assigned to color property.
+
+
+
+css selector
+
+CSS selectors are used to select the content you want to style. Selectors are the part of CSS rule set. CSS selectors select HTML elements according to its id, class, type, attribute etc.
+There are several different types of selectors in CSS.
+
+1.CSS Element Selector
+2.CSS Id Selector
+3.CSS Class Selector
+4.CSS Universal Selector
+5.CSS Group Selector
+
+
+1.CSS Element Selector
+
+The element selector selects the HTML element by name.
+
+example
+p{  
+    text-align: center;  
+    color: blue;  
+}   
+
+2.CSS Id Selector
+
+#para1 {  
+    text-align: center;  
+    color: blue;  
+}  
+
+<p id="para1">Hello Javatpoint.com</p>  
+
+3.CSS Class Selector
+
+.center {  
+    text-align: center;  
+    color: blue;  
+}  
+<p class="center">This paragraph is blue and center-aligned.</p>   
+
+*CSS Class Selector for specific element
+p.center {  
+    text-align: center;  
+    color: blue;  
+}  
+<p class="center">This paragraph is blue and center-aligned.</p>   
+
+4.CSS Universal Selector
+
+it select all element in the page
+
+* {  
+   color: green;  
+   font-size: 20px;  
+}   
+
+5.CSS Group Selector
+
+h1, h2, p {  
+    text-align: center;  
+    color: blue;  
+}  
+
+<h1>Hello Javatpoint.com</h1>  
+<h2>Hello Javatpoint.com (In smaller font)</h2>  
+<p>This is a paragraph.</p>  
+
+
+
+CSS is added to HTML pages to format the document according to information in the style sheet. There are three ways to insert CSS in HTML documents.
+
+1.Inline CSS
+2.Internal CSS
+3.External CSS
+
+1.Inline CSS
+
+Inline CSS is used to apply CSS on a single line or element.
+ex <p style="color:blue">Hello CSS</p>  
+
+2.Internal CSS
+Internal CSS is used to apply CSS on a single document or page. It can affect all the elements of the page. It is written inside the style tag within head section of html.
+<style>  
+p{color:blue}  
+</style>  
+
+3.external css
+
+External CSS is used to apply CSS on multiple pages or all pages. Here, we write all the CSS code in a css file. Its extension must be .css for example style.css.
+style.css
+p{color:blue}  
+
+html program
+<link rel="stylesheet" type="text/css" href="style.css">  
